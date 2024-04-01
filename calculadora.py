@@ -30,6 +30,9 @@ elif(operacion==2):
 elif(operacion==3):
     print(f"El resultado de la multiplicación es {multiplicacion(num1,num2)}")
 elif(operacion==4):
-    print(f"El resultado de la división es {division(num1,num2)}")
+    if(num2==0):
+        print("Error, no se puede deividir entre 0")
+    else:
+        print(f"El resultado de la división es {division(num1,num2)}")
 else:
     print("Opción incorrecta")

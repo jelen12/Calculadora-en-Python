@@ -1,7 +1,7 @@
 #Realizar una calculadora con la operaciones básicas con funciones
 
-def suma(x,y):
-    suma=x+y
+def suma(num1, num2):
+    suma=num1 + num2
     return suma
 
 def resta(num1, num2):
